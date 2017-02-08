@@ -1,0 +1,12 @@
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\bin\iPhoneSimulator\Debug\tempCAL.exe
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\bin\iPhoneSimulator\Debug\tempCAL.pdb
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\tempCAL.exe
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\tempCAL.pdb
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\tempCAL.csprojResolveAssemblyReference.cache
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\obj\iPhoneSimulator\Debug\tempCAL.exe.mdb
+C:\Users\silva\Desktop\IOSMOBILE\tempCAL\tempCAL\bin\iPhoneSimulator\Debug\tempCAL.exe.mdb

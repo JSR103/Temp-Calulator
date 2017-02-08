@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="93" y="619" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="132" translatesAutoresizingMaskIntoConstraints="NO" text="MPH" misplaced="YES">
+                                <rect key="frame" x="44" y="261" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="206" firstItem="132" firstAttribute="height" constant="21"/>
+                                    <constraint id="207" firstItem="132" firstAttribute="width" constant="75"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="133" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="138.5" y="341" width="57" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="215" firstItem="133" firstAttribute="height" constant="21"/>
+                                    <constraint id="216" firstItem="133" firstAttribute="width" constant="57"/>
+                                </constraints>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="135" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Temp *F" misplaced="YES">
+                                <rect key="frame" x="44" y="222" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="199" firstItem="135" firstAttribute="width" constant="97"/>
+                                    <constraint id="200" firstItem="135" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="136" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Humidity %" misplaced="YES">
+                                <rect key="frame" x="143" y="222" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="189" firstItem="136" firstAttribute="height" constant="30"/>
+                                    <constraint id="190" firstItem="136" firstAttribute="width" constant="97"/>
+                                </constraints>
+                            </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="137" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="142.5" y="260" width="53" height="31"/>
+                                <connections>
+                                    <action selector="SWone_TouchUpInside:" destination="BYZ-38-t0r" id="141" eventType="touchUpInside"/>
+                                    <action selector="Switchone_ValueChanged:" destination="BYZ-38-t0r" id="142" eventType="valueChanged"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="211" firstItem="137" firstAttribute="height" constant="31"/>
+                                    <constraint id="212" firstItem="137" firstAttribute="width" constant="51"/>
+                                </constraints>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0" minValue="0" maxValue="100" id="138" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="58.5" y="299" width="149" height="32"/>
+                                <connections>
+                                    <action selector="SLDone_ValueChanged:" destination="BYZ-38-t0r" id="143" eventType="valueChanged"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="213" firstItem="138" firstAttribute="height" constant="31"/>
+                                    <constraint id="214" firstItem="138" firstAttribute="width" constant="145"/>
+                                </constraints>
+                            </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="139" translatesAutoresizingMaskIntoConstraints="NO" image="Images/weather.jpg" misplaced="YES">
+                                <rect key="frame" x="78" y="139" width="112" height="75"/>
+                                <constraints>
+                                    <constraint id="192" firstItem="139" firstAttribute="height" constant="75"/>
+                                    <constraint id="193" firstItem="139" firstAttribute="width" constant="112"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="185" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="54" y="337" width="71" height="30"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BTNcal_TouchUpInside:" destination="BYZ-38-t0r" id="231" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="237" firstItem="185" firstAttribute="height" constant="30"/>
+                                    <constraint id="238" firstItem="185" firstAttribute="width" constant="71"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="7"/>
+                            </mask>
+                        </variation>
+                        <constraints>
+                            <constraint id="187" firstItem="136" firstAttribute="top" secondItem="139" secondAttribute="bottom" constant="8"/>
+                            <constraint id="188" firstItem="8bC-Xf-vdC" firstAttribute="centerY" secondItem="136" secondAttribute="centerY" constant="47"/>
+                            <constraint id="191" firstItem="136" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="31"/>
+                            <constraint id="194" firstItem="8bC-Xf-vdC" firstAttribute="centerX" secondItem="139" secondAttribute="centerX" constant="26"/>
+                            <constraint id="198" firstItem="135" firstAttribute="top" secondItem="139" secondAttribute="bottom" constant="8"/>
+                            <constraint id="201" firstItem="136" firstAttribute="leading" secondItem="135" secondAttribute="trailing" constant="2"/>
+                            <constraint id="205" firstItem="132" firstAttribute="top" secondItem="135" secondAttribute="bottom" constant="9"/>
+                            <constraint id="208" firstItem="137" firstAttribute="leading" secondItem="132" secondAttribute="trailing" constant="24"/>
+                            <constraint id="209" firstItem="138" firstAttribute="top" secondItem="132" secondAttribute="bottom" constant="17"/>
+                            <constraint id="210" firstItem="132" firstAttribute="leading" secondItem="135" secondAttribute="leading"/>
+                            <constraint id="219" firstItem="138" firstAttribute="top" secondItem="137" secondAttribute="bottom" constant="8"/>
+                            <constraint id="220" firstItem="136" firstAttribute="trailing" secondItem="137" secondAttribute="trailing" constant="46"/>
+                            <constraint id="222" firstItem="138" firstAttribute="leading" secondItem="132" secondAttribute="leading" constant="17"/>
+                            <constraint id="223" firstItem="133" firstAttribute="top" secondItem="138" secondAttribute="bottom" constant="11"/>
+                            <constraint id="224" firstItem="138" firstAttribute="trailing" secondItem="133" secondAttribute="trailing" constant="10"/>
+                            <constraint id="239" firstItem="185" firstAttribute="top" secondItem="138" secondAttribute="bottom" constant="6"/>
+                            <constraint id="240" firstItem="133" firstAttribute="leading" secondItem="185" secondAttribute="trailing" constant="13"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Humidity" destination="136" id="name-outlet-136"/>
+                        <outlet property="AirTemp" destination="135" id="name-outlet-135"/>
+                        <outlet property="SWone" destination="137" id="name-outlet-137"/>
+                        <outlet property="LBLone" destination="132" id="name-outlet-132"/>
+                        <outlet property="results" destination="133" id="name-outlet-133"/>
+                        <outlet property="SLone" destination="138" id="name-outlet-138"/>
+                        <outlet property="BTNcal" destination="185" id="name-outlet-185"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+    </simulatedMetricsContainer>
+    <resources>
+        <image name="Images/weather.jpg" width="225" height="225"/>
+    </resources>
+</document>
